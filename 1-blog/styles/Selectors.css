@@ -1,0 +1,50 @@
+body {
+    background-color: #374151;
+}
+header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+input {
+    background: #1F2937;
+}
+#heroP {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF;
+}
+    
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+#name, footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+#razrabotchik {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+#text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
