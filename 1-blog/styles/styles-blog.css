@@ -1,0 +1,140 @@
+body {
+    background-color: #374151;
+    margin: 0;
+}
+
+header a {
+    background: #1F2937;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+input {
+    background: #1F2937;
+    padding: 9px 128px 12px 49px;
+    border-radius: 100px;
+    height: 19px;
+    width: 47px;
+    margin: 0px 0px 69px 0px;
+}
+
+nav {
+    margin: 80px 1020px 71px 226px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 0 0 30px 0;
+    width: 525px;
+    height: 76px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0 0 77px 0;
+    Width: 226px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    margin: 0 0 69px 0;
+    width: 896px;
+    height: 594px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+#heroP {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF;margin: 0 0 14px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nobullet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 148px;
+    height: 28px;
+    margin: 0px 0px -8px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#razrabotchik {
+    margin: 0 0 28px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 85px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 708px;
+    height: 220px;
+    margin: 0px 0 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0px 0 30px 0;
+    width: 708px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0px 0 103px 0;
+    width: 708px;
+    height: 80px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
