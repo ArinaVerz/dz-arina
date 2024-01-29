@@ -57,12 +57,12 @@ div {
     margin: 0;
     padding: 0;
 }
-.В {
+.icon {
     background-color: #4B5563;
     border: 3px;
     border-radius: 3px;
-    font-size: 23px;
-    font-weight: 11px;
+    font-size: 6px;
+    font-weight: 6px;
     text-align: center;
     color: #FFFFFF;
     box-shadow: 0px 15px 30px 0px #00000026;
@@ -74,6 +74,14 @@ div {
     line-height: 28px;
     color: #FFFFFF;
     margin: 0px 0px -8px 0px;
+    text-align: center;
+}
+.razrabotchik {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0px 0px 28px 0px;
     text-align: center;
 }
 .text {
