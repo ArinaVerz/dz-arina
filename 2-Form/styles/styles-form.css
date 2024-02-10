@@ -1,0 +1,24 @@
+main {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+}
+
+label {
+    color: #333333;
+    font-size: 16px;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #089FE0;
+    font-size: 18px;
+}
+
+footer {
+    color: #333333;
+    font-size: 14px;
+}
