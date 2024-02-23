@@ -16,13 +16,27 @@ body {
     margin: 0 auto;
     max-width: 1080px;
     padding-top: 71px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigation li {
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+nav {
+    display: flex;
+    align-items: baseline;
+}
+
+.navigation {
+    display: flex;
+} 
 
 .logo {
     width: 35px;
@@ -30,7 +44,10 @@ body {
     border-radius: 3px;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
     background: #4B5563;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 11px;
 }
 
 .button_search {
@@ -42,6 +59,19 @@ body {
     background: #1F293799;
     color: #FFFFFF;
 }
+
+.item1 {
+    padding-right: 77px;
+}
+
+.item2 {
+    padding-right: 52px;
+}
+
+.item3 {
+    padding-right: 39px;
+}
+
 
 .wrapper_main {
     max-width: 896px;
@@ -103,12 +133,10 @@ body {
     margin-bottom: 77px;
     width: 100%;
     text-align: center;
-
 }
 
 .footer {
     opacity: 0.6;
-
 }
 
 .size24 {
