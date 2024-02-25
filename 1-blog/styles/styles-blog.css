@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     max-width: 1080px;
     padding-top: 71px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -23,7 +24,6 @@ body {
 .navigation li {
     list-style-type: none;
     text-decoration: none;
-    margin-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,6 +104,10 @@ nav {
 .person {
     margin: 0 auto 26px auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .person>p {
@@ -116,6 +120,7 @@ nav {
 
 .image_main {
     margin-bottom: 65px;
+    width: 896px;
 }
 
 .image_one {
@@ -126,11 +131,11 @@ nav {
 .wrapper_text {
     padding-left: 94px;
     padding-right: 94px;
-    margin-bottom: 80px;
 }
 
 .wrapper_footer {
-    margin-bottom: 77px;
+    padding-top: 80px;
+    padding-bottom: 77px;
     width: 100%;
     text-align: center;
 }
