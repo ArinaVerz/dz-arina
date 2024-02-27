@@ -21,6 +21,13 @@ body {
     justify-content: space-between;
 }
 
+.wrapper_logo {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+    margin-right: 77px; 
+}
+
 .navigation li {
     list-style-type: none;
     text-decoration: none;
@@ -29,13 +36,9 @@ body {
     align-items: center;
 }
 
-nav {
-    display: flex;
-    align-items: baseline;
-}
-
 .navigation {
     display: flex;
+    align-items: baseline;
 } 
 
 .logo {
@@ -50,6 +53,11 @@ nav {
     margin-right: 11px;
 }
 
+.wrapper_li {
+    display: flex;
+    gap: 50px;
+}
+
 .button_search {
     width: 224px;
     height: 40px;
@@ -58,20 +66,7 @@ nav {
     border-radius: 100px;
     background: #1F293799;
     color: #FFFFFF;
-}
-
-.item1 {
-    padding-right: 77px;
-}
-
-.item2 {
-    padding-right: 52px;
-}
-
-.item3 {
-    padding-right: 39px;
-}
-
+} 
 
 .wrapper_main {
     max-width: 896px;
@@ -103,11 +98,14 @@ nav {
 
 .person {
     margin: 0 auto 26px auto;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+.iconuser {
+    width: 100%;
 }
 
 .person>p {
@@ -120,7 +118,7 @@ nav {
 
 .image_main {
     margin-bottom: 65px;
-    width: 896px;
+    width: 100%;
 }
 
 .image_one {
@@ -129,8 +127,9 @@ nav {
 }
 
 .wrapper_text {
-    padding-left: 94px;
-    padding-right: 94px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 708px;
 }
 
 .wrapper_footer {
