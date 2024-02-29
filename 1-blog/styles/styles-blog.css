@@ -17,8 +17,7 @@ body {
     max-width: 1080px;
     padding: 71px 0 80px;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;  
+    align-items: center;
 }
 
 .wrapper_logo {
