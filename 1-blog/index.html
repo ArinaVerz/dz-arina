@@ -7,6 +7,7 @@
     <title>Семантика и HTML5</title>
     <link rel="stylesheet" href="styles/styles-blog.css" />
 </head>
+
 <body>
     <header class="header">
         <div class="header_wrapper">
@@ -14,7 +15,7 @@
                 <div class="logo">
                     <img src="images/iconLogo.png" alt="Логотип">
                 </div>
-                <div class="logo_blog">Мой блог</div>
+                <a class="logo_blog" href="#">Мой блог</a>
             </div>
             <nav>
                 <ul class="navigation">
@@ -23,7 +24,7 @@
                     <li class="nav_item"> <a href="#">Backend</a></li>
                 </ul>
             </nav>
-            <div>
+            <div class="search">
                 <label for="Поиск"><input class="button_search" type="text" id="Поиск" name="Поиск"
                         placeholder="Поиск"></label>
             </div>
@@ -36,8 +37,8 @@
         </div>
         <h1 class="text_main size24">Теория цвета – Как цвет влияет на поведение потребителей</h1>
         <div class="person">
-            <div>
-                <img class="iconuser" src="./images/iconUser.png" alt="Фото автора">
+            <div class="person_image">
+                <img src="./images/iconUser.png" alt="Фото автора">
             </div>
             <div class="author">
                 <p class="name_author size16">Наталья Васильева</p>
@@ -45,8 +46,7 @@
             </div>
         </div>
         <div class="image_main">
-            <img class="image_one" src="images/imageMonitor.svg"
-                alt="Изображение монитора и компьютера на оранжевом фоне" />
+            <img src="images/imageMonitor.svg" alt="Изображение монитора и компьютера на оранжевом фоне" />
         </div>
         <div class="wrapper_text">
             <p class="size20 tab">
@@ -80,4 +80,5 @@
         <p class="footer text size16">Все права защищены &#169; 2024</p>
     </footer>
 </body>
+
 </html>
