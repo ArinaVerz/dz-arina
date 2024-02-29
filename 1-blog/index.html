@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,26 @@
     <link rel="stylesheet" href="styles/styles-blog.css" />
 
 </head>
-
 <body>
-    <header class="wrapper_head">
-        <nav>
-            <ul class="navigation">
-                <li>
-                    <a href="#" target="_blank">
-                        <div class="wrapper_logo">
-                            <div class="logo">
-                                <img src="images/iconLogo.png" alt="Логотип">
-                            </div>
-                            <p>Мой блог</p>
-                        </div>
-                    </a>
-                </li>
-                <div class="wrapper_li">
-                    <li> <a href="#">HTML и CSS</a></li>
-                    <li> <a href="#">Frontend</a></li>
-                    <li> <a href="#">Backend</a></li>
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="wrapper_logo">
+                <div class="logo">
+                    <img src="images/iconLogo.png" alt="Логотип">
                 </div>
-            </ul>
-        </nav>
-        <div>
-            <label for="Поиск"><input class="button_search" type="text" id="Поиск" name="Поиск"
-                    placeholder="Поиск"></label>
+                <div class="logo_blog">Мой блог</div>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li class="nav_item" class="nav_item_1"> <a href="#">HTML и CSS</a></li>
+                    <li class="nav_item" class="nav_item_2"> <a href="#">Frontend</a></li>
+                    <li class="nav_item"> <a href="#">Backend</a></li>
+                </ul>
+            </nav>
+            <div>
+                <label for="Поиск"><input class="button_search" type="text" id="Поиск" name="Поиск"
+                        placeholder="Поиск"></label>
+            </div>
         </div>
     </header>
     <main class="wrapper_main">
@@ -85,4 +81,5 @@
         <p class="footer text size16">Все права защищены &#169; 2024</p>
     </footer>
 </body>
+
 </html>
