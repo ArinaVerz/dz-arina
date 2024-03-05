@@ -6,31 +6,42 @@
                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
                    <title>Форма регистрации</title>
                 <link rel="stylesheet" href="styles/styles-form.css" />
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <main>
             <h1>Регистрация</h1>
-            <div>Уже есть аккаунт?</div> <button>Войти</button>
-            <form action="#" method="get">
-                <div>
-                    <label for="my company">Моя компания</label>
-                    <input type="text" id="my company" name="my company" placeholder="Моя компания" required>
+            <div class="sub_title">
+                <div class="question">Уже есть аккаунт?</div> <button class="enter">Войти</button>
+            </div>  
+            <form class="form" action="#" method="get">
+                <div class="my_company">
+                    <label for="my company"><input class="styles_1" type="text" id="my company" name="my company" placeholder="Моя компания" required></label> 
+                </div>
+                <div class="wrapper_FLname">
+                    <div class="name">
+                        <label for="name"><input class="styles_2" type="text" id="name" name="name" placeholder="Имя" required></label>
+                    </div>
+                    <div class="lastname">
+                        <label for="lastname"><input class="styles_2" type="text" id="lastname" name="lastname" placeholder="Фамилия" required></label>
+                    </div>
+                </div>
+                <div class="E-mail">
+                    <label for="email"><input class="styles_2" type="email" id="email" name="email" placeholder="E-mail" required></label> 
                 </div>
                 <div>
-                    <label for="name">Имя</label>
-                    <input type="text" id="name" name="name" placeholder="Имя" required>
+                    <button class="mainButton" type="submit">Зарегистрироваться<img class="img_arrow" src="images/Arrow 1.png" alt="Arrow"></button>
                 </div>
-                <div
-                    <label for="lastname">Фамилия</label>
-                    <input type="text" id="lastname" name="lastname" placeholder="Фамилия" required>
+                <div class="footer">
+                    <label for="checkbox"><input class="checkbox" type="checkbox" id="checkbox" name="checkbox"> <span class="agree">Я прочитал и принимаю</span> <a class="link" href="%">Условия пользования</a></label>
                 </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" placeholder="E-mail" required>
-                </div>
-                <button>Зарегистрироваться</button>
             </form>
-                <div>Я прочитал и принимаю <a href="%">Условия пользования</a></div>
         </main>
     </body>
 </html>

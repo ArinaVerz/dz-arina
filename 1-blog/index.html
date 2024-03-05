@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Семантика и HTML5</title>
     <link rel="stylesheet" href="styles/styles-blog.css" />
-
 </head>
 
 <body>
-    <header class="wrapper_head">
-        <div class="logo">
-            <img src="./images/iconLogo.png" alt="Логотип">
-        </div>
-        <nav>
-            <ul class="navigation">
-                <li> <a href="#">Мой блог</a></li>
-                <li> <a href="#">HTML и CSS</a></li>
-                <li> <a href="#">Frontend</a></li>
-                <li> <a href="#">Backend</a></li>
-            </ul>
-        </nav>
-        <div>
-            <label for="Поиск"><input class="button_search" type="text" id="Поиск" name="Поиск"
-                    placeholder="Поиск"></label>
+    <header class="header">
+        <div class="header_wrapper">
+            <a href="#" class="wrapper_logo">
+                <div class="logo">
+                    <img src="images/iconLogo.png" alt="Логотип">
+                </div>
+                <div>Мой блог</div>
+            </a>
+            <nav>
+                <ul class="navigation">
+                    <li class="nav_item" class="nav_item_1"> <a href="#">HTML и CSS</a></li>
+                    <li class="nav_item" class="nav_item_2"> <a href="#">Frontend</a></li>
+                    <li class="nav_item"> <a href="#">Backend</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <label for="Поиск"><input class="button_search" type="text" id="Поиск" name="Поиск"
+                        placeholder="Поиск"></label>
+            </div>
         </div>
     </header>
     <main class="wrapper_main">
@@ -34,7 +37,7 @@
         </div>
         <h1 class="text_main size24">Теория цвета – Как цвет влияет на поведение потребителей</h1>
         <div class="person">
-            <div>
+            <div class="person_image">
                 <img src="./images/iconUser.png" alt="Фото автора">
             </div>
             <div class="author">
@@ -43,8 +46,7 @@
             </div>
         </div>
         <div class="image_main">
-            <img class="image_one" src="images/imageMonitor.svg"
-                alt="Изображение монитора и компьютера на оранжевом фоне" />
+            <img src="images/imageMonitor.svg" alt="Изображение монитора и компьютера на оранжевом фоне" />
         </div>
         <div class="wrapper_text">
             <p class="size20 tab">
@@ -78,4 +80,5 @@
         <p class="footer text size16">Все права защищены &#169; 2024</p>
     </footer>
 </body>
+
 </html>
