@@ -15,31 +15,3 @@ switch (langUserRU) {
     default:
         console.log('Не используется язык');    
 }
-
-switch (langUserEN) {
-    case 'Русский':
-        console.log('Привет');
-        break;
-    case 'Английский':
-        console.log('Hello');
-        break;
-    case 'Испанский':
-        console.log('Hola');
-        break;  
-    default:
-        console.log('Не используется язык');    
-}
-
-switch (langUserSPA) {
-    case 'Русский':
-        console.log('Привет');
-        break;
-    case 'Английский':
-        console.log('Hello');
-        break;
-    case 'Испанский':
-        console.log('Hola');
-        break;  
-    default:
-        console.log('Не используется язык');    
-}
