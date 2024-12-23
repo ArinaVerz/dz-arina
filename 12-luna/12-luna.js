@@ -1,7 +1,7 @@
 function luhnCheck(str) {
     const nCheck = str.replace(/\D/g, "");
     if (nCheck.length != 16) {
-        return false;
+    return false;
     }
     const arrayWithEvenNumberX2 = nCheck
         .split("")
