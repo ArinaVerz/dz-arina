@@ -29,6 +29,6 @@ const dateFormatter = (array) => {
     }
     });
     return dates.filter((date) => date !== undefined);
- };
+};
 
 console.log(dateFormatter(dates));
