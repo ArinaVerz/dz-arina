@@ -5,7 +5,7 @@ function queryParams(obj) {
   objEntriesArray.forEach(([key, value], i) => {
     res += `${key}=${value}${i + 1 !== objEntriesArray.length ? "&" : ""}`;
   });
-  return res;
+   return res;
 }
 const obj = {
   search: "Вася",
