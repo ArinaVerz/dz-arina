@@ -4,7 +4,7 @@ const taskManager = {
   addTask: function (title, priority) {
     this.tasks.push({ title, priority, id: this.id++ });
   },
-  deleteTask: function (taskId) {
+  deleteTask:  function (taskId) {
     this.tasks = this.tasks.filter((task) => task.id !== taskId);
   },
   updateTask: function (taskId, title, priority) {
